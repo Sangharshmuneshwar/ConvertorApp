@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    justify-content: center;
+   background-image:url('./wallpaper.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+   height: 100vh;
+
+
+  } 
+  
+  #main-div{
+    border: 2px solid black;
+    background: rgba(0,0,0,.6);
+      background-attachment: fixed;
+      
+      
+
+    
+    width: 50vw;
+    height: 70vh;
+    border-radius: 8px;
+    margin-top: 8vh;
+    
+  }
+  input{
+    height: 5vh;
+    width: 25vw;
+    /* margin-top: 3vh; */
+    margin-bottom: 5px;
+    margin-left: 6vw;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  #select1{
+    height: 5vh;
+    width: 25.5vw;
+    margin-left: 6vw;
+    border: 2.7px solid black;
+    border-radius: 3px;
+  }
+  #select2{
+    height: 5vh;
+    width: 25.5vw;
+    margin-left: 6vw;
+    border: 2.7px solid black;
+    border-radius: 3px;
+  }
+  h2{
+    padding-left: 3vw;
+    text-shadow: 2px,2px,5px,red;
+    color: bisque;
+  
+  }
+  #mainButton{
+    height: 6vh;
+    width: 10vw;
+    margin-left: 6vw;
+    background-color: burlywood;
+    border-radius: 5px;
+    font-weight: bold;
+   }
+   #mainButton:hover{
+     background-color: #3e8e41;
+     cursor: pointer;
+   }
+   #mainButton:active{
+     background-color: #3e8e41;
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+   }
+  
+  #h1First{
+    padding-left: 9.5vw;
+    color: bisque;
+  }
+  #btn-h2-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+  }
+  #heading{
+    margin-right: 6vw;
+    margin-top: 0%;
+  }
+#saggy{
+ display: flex;
+ 
+}
+#swapBtn{
+ height: 5vh;
+ width: 6vw;
+ background: burlywood;
+ margin-top: 2.5vh;
+ margin-left: 10vw;
+ border-radius: 5px;
+ font-weight: bold;
+}
+#swapBtn:hover{
+ background-color: #3e8e41;
+ cursor: pointer;
+}
+#swapBtn:active {
+ background-color: #3e8e41;
+ box-shadow: 0 5px #666;
+ transform: translateY(4px);
+}
